@@ -1,0 +1,62 @@
+@charset "UTF-8";
+.navbar-brand .navbar-brand-transparent,
+.navbar-brand .navbar-brand-sticky {
+    width: 65%
+}
+
+.swiper-slide .img-fluid {
+    max-width: 50%;
+    height: auto
+}
+
+.bg-gradient-secondary {
+    background-image: radial-gradient(200% 160% at 75% 130%, #2e3092 0%, #212266 100%)
+}
+
+.text-center {
+    text-align: center !important;
+    align-items: center !important
+}
+
+.dropcap::first-letter {
+    margin: 0 0 0 0;
+    color: #2e3092;
+}
+
+.mapboxgl-popup {
+    max-width: 280px !important;
+}
+
+.border-pink {
+    --bs-border-opacity: 1;
+    border-color: #ffa5ec !important;
+}
+
+.border-aqua {
+    --bs-border-opacity: 1;
+    border-color: #3ad2ff !important;
+}
+
+.border-purple {
+    --bs-border-opacity: 1;
+    border-color: #9570dd !important;
+}
+
+.border-light-green {
+    --bs-border-opacity: 1;
+    border-color: #90ee91 !important;
+}
+
+.border-magenta {
+    --bs-border-opacity: 1;
+    border-color: #e886b7 !important;
+}
+
+/*!
+@media (max-width: 767px) {
+  .list-inline {
+    text-align: center;
+    align-items: center
+  }
+}
+*/
